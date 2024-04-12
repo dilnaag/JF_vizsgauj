@@ -16,7 +16,7 @@ export const SingleProduct = ({id,title,category,description,price,thumbnail,}) 
           </CardSubtitle>
           <CardText>{description}</CardText>
           <CardText>Price: {price}€</CardText>
-          <Button style={{backgroundColor:'blue'}}>Add to cart</Button>
+          <Button style={{backgroundColor:'lightblue'}}>Add to cart</Button>
         </CardBody>
       </Card>
     </div>
